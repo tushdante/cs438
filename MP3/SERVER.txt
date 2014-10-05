@@ -1,0 +1,1365 @@
+retry is: 1
+Ack for server connection!
+
+
+
+
+
+while newseqnum: 0
+file length: 17729
+
+
+sendacknum = 88
+newseqnum + datalen: 180
+for newseqnum: 88
+success!
+newseqnum + datalen: 272
+for newseqnum: 180
+success!
+ Elese Send SACK! 
+sendacknum = 272
+ Elese Send SACK! 
+sendacknum = 272
+ Elese Send SACK! 
+sendacknum = 272
+end of for loop
+
+
+
+
+
+
+
+NEW CWND: 4
+newseqnum + datalen: 364
+for newseqnum: 272
+success!
+newseqnum + datalen: 456
+for newseqnum: 364
+success!
+newseqnum + datalen: 548
+for newseqnum: 456
+success!
+newseqnum + datalen: 640
+for newseqnum: 548
+success!
+ Elese Send SACK! 
+sendacknum = 640
+ Elese Send SACK! 
+sendacknum = 640
+ Elese Send SACK! 
+sendacknum = 640
+end of for loop
+
+
+
+
+
+
+
+NEW CWND: 8
+newseqnum + datalen: 732
+for newseqnum: 640
+success!
+newseqnum + datalen: 824
+for newseqnum: 732
+success!
+newseqnum + datalen: 916
+for newseqnum: 824
+success!
+newseqnum + datalen: 1008
+for newseqnum: 916
+success!
+newseqnum + datalen: 1100
+for newseqnum: 1008
+success!
+newseqnum + datalen: 1192
+for newseqnum: 1100
+success!
+
+
+
+
+NEW CWND: 1
+newseqnum + datalen: 1468
+for newseqnum: 1376
+fail
+ Elese Send DUPACK! 
+sendacknum = 1192
+ Elese Send DUPACK! 
+sendacknum = 1192
+ Elese Send DUPACK! 
+sendacknum = 1192
+newseqnum + datalen: 1284
+for newseqnum: 1192
+success!
+ Elese Send SACK! 
+sendacknum = 1284
+ Elese Send SACK! 
+sendacknum = 1284
+ Elese Send SACK! 
+sendacknum = 1284
+end of for loop
+
+
+
+
+
+
+
+NEW CWND: 2
+newseqnum + datalen: 1376
+for newseqnum: 1284
+success!
+newseqnum + datalen: 1468
+for newseqnum: 1376
+success!
+ Elese Send SACK! 
+sendacknum = 1468
+ Elese Send SACK! 
+sendacknum = 1468
+ Elese Send SACK! 
+sendacknum = 1468
+end of for loop
+
+
+
+
+
+
+
+NEW CWND: 3
+newseqnum + datalen: 1560
+for newseqnum: 1468
+success!
+newseqnum + datalen: 1652
+for newseqnum: 1560
+success!
+newseqnum + datalen: 1744
+for newseqnum: 1652
+success!
+ Elese Send SACK! 
+sendacknum = 1744
+ Elese Send SACK! 
+sendacknum = 1744
+ Elese Send SACK! 
+sendacknum = 1744
+end of for loop
+
+
+
+
+
+
+
+NEW CWND: 4
+newseqnum + datalen: 1836
+for newseqnum: 1744
+success!
+newseqnum + datalen: 1928
+for newseqnum: 1836
+success!
+newseqnum + datalen: 2020
+for newseqnum: 1928
+success!
+newseqnum + datalen: 2112
+for newseqnum: 2020
+success!
+ Elese Send SACK! 
+sendacknum = 2112
+ Elese Send SACK! 
+sendacknum = 2112
+ Elese Send SACK! 
+sendacknum = 2112
+end of for loop
+
+
+
+
+
+
+
+NEW CWND: 5
+newseqnum + datalen: 2204
+for newseqnum: 2112
+success!
+newseqnum + datalen: 2296
+for newseqnum: 2204
+success!
+newseqnum + datalen: 2388
+for newseqnum: 2296
+success!
+newseqnum + datalen: 2480
+for newseqnum: 2388
+success!
+newseqnum + datalen: 2572
+for newseqnum: 2480
+success!
+ Elese Send SACK! 
+sendacknum = 2572
+ Elese Send SACK! 
+sendacknum = 2572
+ Elese Send SACK! 
+sendacknum = 2572
+end of for loop
+
+
+
+
+
+
+
+NEW CWND: 6
+newseqnum + datalen: 2664
+for newseqnum: 2572
+success!
+newseqnum + datalen: 2756
+for newseqnum: 2664
+success!
+newseqnum + datalen: 2848
+for newseqnum: 2756
+success!
+newseqnum + datalen: 2940
+for newseqnum: 2848
+success!
+newseqnum + datalen: 3032
+for newseqnum: 2940
+success!
+newseqnum + datalen: 3124
+for newseqnum: 3032
+success!
+ Elese Send SACK! 
+sendacknum = 3124
+ Elese Send SACK! 
+sendacknum = 3124
+ Elese Send SACK! 
+sendacknum = 3124
+end of for loop
+
+
+
+
+
+
+
+NEW CWND: 7
+newseqnum + datalen: 3216
+for newseqnum: 3124
+success!
+ I is : 1 
+newseqnum + datalen: 3308
+for newseqnum: 3216
+success!
+ I is : 2 
+newseqnum + datalen: 3400
+for newseqnum: 3308
+success!
+ I is : 3 
+newseqnum + datalen: 3492
+for newseqnum: 3400
+success!
+ I is : 4 
+newseqnum + datalen: 3584
+for newseqnum: 3492
+success!
+ I is : 5 
+newseqnum + datalen: 3676
+for newseqnum: 3584
+success!
+ I is : 6 
+
+
+
+
+NEW CWND: 1
+newseqnum + datalen: 65628
+for newseqnum: 65536
+fail
+ Elese Send DUPACK! 
+sendacknum = 3676
+ Elese Send DUPACK! 
+sendacknum = 3676
+ Elese Send DUPACK! 
+sendacknum = 3676
+newseqnum + datalen: 3768
+for newseqnum: 3676
+success!
+ Elese Send SACK! 
+sendacknum = 3768
+ Elese Send SACK! 
+sendacknum = 3768
+ Elese Send SACK! 
+sendacknum = 3768
+end of for loop
+
+
+
+
+
+
+
+NEW CWND: 2
+newseqnum + datalen: 3860
+for newseqnum: 3768
+success!
+newseqnum + datalen: 3952
+for newseqnum: 3860
+success!
+ Elese Send SACK! 
+sendacknum = 3952
+ Elese Send SACK! 
+sendacknum = 3952
+ Elese Send SACK! 
+sendacknum = 3952
+end of for loop
+
+
+
+
+
+
+
+NEW CWND: 4
+newseqnum + datalen: 4044
+for newseqnum: 3952
+success!
+newseqnum + datalen: 4136
+for newseqnum: 4044
+success!
+newseqnum + datalen: 4228
+for newseqnum: 4136
+success!
+newseqnum + datalen: 4320
+for newseqnum: 4228
+success!
+ Elese Send SACK! 
+sendacknum = 4320
+ Elese Send SACK! 
+sendacknum = 4320
+ Elese Send SACK! 
+sendacknum = 4320
+end of for loop
+
+
+
+
+
+
+
+NEW CWND: 5
+newseqnum + datalen: 4412
+for newseqnum: 4320
+success!
+newseqnum + datalen: 4504
+for newseqnum: 4412
+success!
+newseqnum + datalen: 4596
+for newseqnum: 4504
+success!
+newseqnum + datalen: 4688
+for newseqnum: 4596
+success!
+newseqnum + datalen: 4780
+for newseqnum: 4688
+success!
+ Elese Send SACK! 
+sendacknum = 4780
+ Elese Send SACK! 
+sendacknum = 4780
+ Elese Send SACK! 
+sendacknum = 4780
+end of for loop
+
+
+
+
+
+
+
+NEW CWND: 6
+newseqnum + datalen: 4872
+for newseqnum: 4780
+success!
+newseqnum + datalen: 4964
+for newseqnum: 4872
+success!
+newseqnum + datalen: 5056
+for newseqnum: 4964
+success!
+newseqnum + datalen: 5148
+for newseqnum: 5056
+success!
+newseqnum + datalen: 5240
+for newseqnum: 5148
+success!
+newseqnum + datalen: 5332
+for newseqnum: 5240
+success!
+ Elese Send SACK! 
+sendacknum = 5332
+ Elese Send SACK! 
+sendacknum = 5332
+ Elese Send SACK! 
+sendacknum = 5332
+end of for loop
+
+
+
+
+
+
+
+NEW CWND: 7
+newseqnum + datalen: 5424
+for newseqnum: 5332
+success!
+ I is : 1 
+newseqnum + datalen: 5516
+for newseqnum: 5424
+success!
+ I is : 2 
+newseqnum + datalen: 5608
+for newseqnum: 5516
+success!
+ I is : 3 
+newseqnum + datalen: 5700
+for newseqnum: 5608
+success!
+ I is : 4 
+newseqnum + datalen: 5792
+for newseqnum: 5700
+success!
+ I is : 5 
+newseqnum + datalen: 5884
+for newseqnum: 5792
+success!
+ I is : 6 
+
+
+
+
+NEW CWND: 1
+newseqnum + datalen: 65628
+for newseqnum: 65536
+fail
+ Elese Send DUPACK! 
+sendacknum = 5884
+ Elese Send DUPACK! 
+sendacknum = 5884
+ Elese Send DUPACK! 
+sendacknum = 5884
+newseqnum + datalen: 5976
+for newseqnum: 5884
+success!
+ Elese Send SACK! 
+sendacknum = 5976
+ Elese Send SACK! 
+sendacknum = 5976
+ Elese Send SACK! 
+sendacknum = 5976
+end of for loop
+
+
+
+
+
+
+
+NEW CWND: 2
+newseqnum + datalen: 6068
+for newseqnum: 5976
+success!
+newseqnum + datalen: 6160
+for newseqnum: 6068
+success!
+ Elese Send SACK! 
+sendacknum = 6160
+ Elese Send SACK! 
+sendacknum = 6160
+ Elese Send SACK! 
+sendacknum = 6160
+end of for loop
+
+
+
+
+
+
+
+NEW CWND: 4
+newseqnum + datalen: 6252
+for newseqnum: 6160
+success!
+newseqnum + datalen: 6344
+for newseqnum: 6252
+success!
+newseqnum + datalen: 6436
+for newseqnum: 6344
+success!
+newseqnum + datalen: 6528
+for newseqnum: 6436
+success!
+ Elese Send SACK! 
+sendacknum = 6528
+ Elese Send SACK! 
+sendacknum = 6528
+ Elese Send SACK! 
+sendacknum = 6528
+end of for loop
+
+
+
+
+
+
+
+NEW CWND: 5
+newseqnum + datalen: 6620
+for newseqnum: 6528
+success!
+newseqnum + datalen: 6712
+for newseqnum: 6620
+success!
+newseqnum + datalen: 6804
+for newseqnum: 6712
+success!
+newseqnum + datalen: 6896
+for newseqnum: 6804
+success!
+newseqnum + datalen: 6988
+for newseqnum: 6896
+success!
+ Elese Send SACK! 
+sendacknum = 6988
+ Elese Send SACK! 
+sendacknum = 6988
+ Elese Send SACK! 
+sendacknum = 6988
+end of for loop
+
+
+
+
+
+
+
+NEW CWND: 6
+newseqnum + datalen: 7080
+for newseqnum: 6988
+success!
+newseqnum + datalen: 7172
+for newseqnum: 7080
+success!
+newseqnum + datalen: 7264
+for newseqnum: 7172
+success!
+newseqnum + datalen: 7356
+for newseqnum: 7264
+success!
+newseqnum + datalen: 7448
+for newseqnum: 7356
+success!
+newseqnum + datalen: 7540
+for newseqnum: 7448
+success!
+ Elese Send SACK! 
+sendacknum = 7540
+ Elese Send SACK! 
+sendacknum = 7540
+ Elese Send SACK! 
+sendacknum = 7540
+end of for loop
+
+
+
+
+
+
+
+NEW CWND: 7
+newseqnum + datalen: 7632
+for newseqnum: 7540
+success!
+ I is : 1 
+newseqnum + datalen: 7724
+for newseqnum: 7632
+success!
+ I is : 2 
+newseqnum + datalen: 7816
+for newseqnum: 7724
+success!
+ I is : 3 
+newseqnum + datalen: 7908
+for newseqnum: 7816
+success!
+ I is : 4 
+newseqnum + datalen: 8000
+for newseqnum: 7908
+success!
+ I is : 5 
+newseqnum + datalen: 8092
+for newseqnum: 8000
+success!
+ I is : 6 
+
+
+
+
+NEW CWND: 1
+newseqnum + datalen: 65628
+for newseqnum: 65536
+fail
+ Elese Send DUPACK! 
+sendacknum = 8092
+ Elese Send DUPACK! 
+sendacknum = 8092
+ Elese Send DUPACK! 
+sendacknum = 8092
+newseqnum + datalen: 8184
+for newseqnum: 8092
+success!
+ Elese Send SACK! 
+sendacknum = 8184
+ Elese Send SACK! 
+sendacknum = 8184
+ Elese Send SACK! 
+sendacknum = 8184
+end of for loop
+
+
+
+
+
+
+
+NEW CWND: 2
+newseqnum + datalen: 8276
+for newseqnum: 8184
+success!
+newseqnum + datalen: 8368
+for newseqnum: 8276
+success!
+ Elese Send SACK! 
+sendacknum = 8368
+ Elese Send SACK! 
+sendacknum = 8368
+ Elese Send SACK! 
+sendacknum = 8368
+end of for loop
+
+
+
+
+
+
+
+NEW CWND: 4
+newseqnum + datalen: 8460
+for newseqnum: 8368
+success!
+newseqnum + datalen: 8552
+for newseqnum: 8460
+success!
+newseqnum + datalen: 8644
+for newseqnum: 8552
+success!
+newseqnum + datalen: 8736
+for newseqnum: 8644
+success!
+ Elese Send SACK! 
+sendacknum = 8736
+ Elese Send SACK! 
+sendacknum = 8736
+ Elese Send SACK! 
+sendacknum = 8736
+end of for loop
+
+
+
+
+
+
+
+NEW CWND: 5
+newseqnum + datalen: 8828
+for newseqnum: 8736
+success!
+newseqnum + datalen: 8920
+for newseqnum: 8828
+success!
+newseqnum + datalen: 9012
+for newseqnum: 8920
+success!
+newseqnum + datalen: 9104
+for newseqnum: 9012
+success!
+newseqnum + datalen: 9196
+for newseqnum: 9104
+success!
+ Elese Send SACK! 
+sendacknum = 9196
+ Elese Send SACK! 
+sendacknum = 9196
+ Elese Send SACK! 
+sendacknum = 9196
+end of for loop
+
+
+
+
+
+
+
+NEW CWND: 6
+newseqnum + datalen: 9288
+for newseqnum: 9196
+success!
+newseqnum + datalen: 9380
+for newseqnum: 9288
+success!
+newseqnum + datalen: 9472
+for newseqnum: 9380
+success!
+newseqnum + datalen: 9564
+for newseqnum: 9472
+success!
+newseqnum + datalen: 9656
+for newseqnum: 9564
+success!
+newseqnum + datalen: 9748
+for newseqnum: 9656
+success!
+ Elese Send SACK! 
+sendacknum = 9748
+ Elese Send SACK! 
+sendacknum = 9748
+ Elese Send SACK! 
+sendacknum = 9748
+end of for loop
+
+
+
+
+
+
+
+NEW CWND: 7
+newseqnum + datalen: 9840
+for newseqnum: 9748
+success!
+ I is : 1 
+newseqnum + datalen: 9932
+for newseqnum: 9840
+success!
+ I is : 2 
+newseqnum + datalen: 10024
+for newseqnum: 9932
+success!
+ I is : 3 
+newseqnum + datalen: 10116
+for newseqnum: 10024
+success!
+ I is : 4 
+newseqnum + datalen: 10208
+for newseqnum: 10116
+success!
+ I is : 5 
+newseqnum + datalen: 10300
+for newseqnum: 10208
+success!
+ I is : 6 
+
+
+
+
+NEW CWND: 1
+newseqnum + datalen: 65628
+for newseqnum: 65536
+fail
+ Elese Send DUPACK! 
+sendacknum = 10300
+ Elese Send DUPACK! 
+sendacknum = 10300
+ Elese Send DUPACK! 
+sendacknum = 10300
+newseqnum + datalen: 10392
+for newseqnum: 10300
+success!
+ Elese Send SACK! 
+sendacknum = 10392
+ Elese Send SACK! 
+sendacknum = 10392
+ Elese Send SACK! 
+sendacknum = 10392
+end of for loop
+
+
+
+
+
+
+
+NEW CWND: 2
+newseqnum + datalen: 10484
+for newseqnum: 10392
+success!
+newseqnum + datalen: 10576
+for newseqnum: 10484
+success!
+ Elese Send SACK! 
+sendacknum = 10576
+ Elese Send SACK! 
+sendacknum = 10576
+ Elese Send SACK! 
+sendacknum = 10576
+end of for loop
+
+
+
+
+
+
+
+NEW CWND: 4
+newseqnum + datalen: 10668
+for newseqnum: 10576
+success!
+newseqnum + datalen: 10760
+for newseqnum: 10668
+success!
+newseqnum + datalen: 10852
+for newseqnum: 10760
+success!
+newseqnum + datalen: 10944
+for newseqnum: 10852
+success!
+ Elese Send SACK! 
+sendacknum = 10944
+ Elese Send SACK! 
+sendacknum = 10944
+ Elese Send SACK! 
+sendacknum = 10944
+end of for loop
+
+
+
+
+
+
+
+NEW CWND: 5
+newseqnum + datalen: 11036
+for newseqnum: 10944
+success!
+newseqnum + datalen: 11128
+for newseqnum: 11036
+success!
+newseqnum + datalen: 11220
+for newseqnum: 11128
+success!
+newseqnum + datalen: 11312
+for newseqnum: 11220
+success!
+newseqnum + datalen: 11404
+for newseqnum: 11312
+success!
+ Elese Send SACK! 
+sendacknum = 11404
+ Elese Send SACK! 
+sendacknum = 11404
+ Elese Send SACK! 
+sendacknum = 11404
+end of for loop
+
+
+
+
+
+
+
+NEW CWND: 6
+newseqnum + datalen: 11496
+for newseqnum: 11404
+success!
+newseqnum + datalen: 11588
+for newseqnum: 11496
+success!
+newseqnum + datalen: 11680
+for newseqnum: 11588
+success!
+newseqnum + datalen: 11772
+for newseqnum: 11680
+success!
+newseqnum + datalen: 11864
+for newseqnum: 11772
+success!
+newseqnum + datalen: 11956
+for newseqnum: 11864
+success!
+ Elese Send SACK! 
+sendacknum = 11956
+ Elese Send SACK! 
+sendacknum = 11956
+ Elese Send SACK! 
+sendacknum = 11956
+end of for loop
+
+
+
+
+
+
+
+NEW CWND: 7
+newseqnum + datalen: 12048
+for newseqnum: 11956
+success!
+ I is : 1 
+newseqnum + datalen: 12140
+for newseqnum: 12048
+success!
+ I is : 2 
+newseqnum + datalen: 12232
+for newseqnum: 12140
+success!
+ I is : 3 
+newseqnum + datalen: 12324
+for newseqnum: 12232
+success!
+ I is : 4 
+newseqnum + datalen: 12416
+for newseqnum: 12324
+success!
+ I is : 5 
+newseqnum + datalen: 12508
+for newseqnum: 12416
+success!
+ I is : 6 
+
+
+
+
+NEW CWND: 1
+newseqnum + datalen: 65628
+for newseqnum: 65536
+fail
+ Elese Send DUPACK! 
+sendacknum = 12508
+ Elese Send DUPACK! 
+sendacknum = 12508
+ Elese Send DUPACK! 
+sendacknum = 12508
+newseqnum + datalen: 12600
+for newseqnum: 12508
+success!
+ Elese Send SACK! 
+sendacknum = 12600
+ Elese Send SACK! 
+sendacknum = 12600
+ Elese Send SACK! 
+sendacknum = 12600
+end of for loop
+
+
+
+
+
+
+
+NEW CWND: 2
+newseqnum + datalen: 12692
+for newseqnum: 12600
+success!
+newseqnum + datalen: 12784
+for newseqnum: 12692
+success!
+ Elese Send SACK! 
+sendacknum = 12784
+ Elese Send SACK! 
+sendacknum = 12784
+ Elese Send SACK! 
+sendacknum = 12784
+end of for loop
+
+
+
+
+
+
+
+NEW CWND: 4
+newseqnum + datalen: 12876
+for newseqnum: 12784
+success!
+newseqnum + datalen: 12968
+for newseqnum: 12876
+success!
+newseqnum + datalen: 13060
+for newseqnum: 12968
+success!
+newseqnum + datalen: 13152
+for newseqnum: 13060
+success!
+ Elese Send SACK! 
+sendacknum = 13152
+ Elese Send SACK! 
+sendacknum = 13152
+ Elese Send SACK! 
+sendacknum = 13152
+end of for loop
+
+
+
+
+
+
+
+NEW CWND: 5
+newseqnum + datalen: 13244
+for newseqnum: 13152
+success!
+newseqnum + datalen: 13336
+for newseqnum: 13244
+success!
+newseqnum + datalen: 13428
+for newseqnum: 13336
+success!
+newseqnum + datalen: 13520
+for newseqnum: 13428
+success!
+newseqnum + datalen: 13612
+for newseqnum: 13520
+success!
+ Elese Send SACK! 
+sendacknum = 13612
+ Elese Send SACK! 
+sendacknum = 13612
+ Elese Send SACK! 
+sendacknum = 13612
+end of for loop
+
+
+
+
+
+
+
+NEW CWND: 6
+newseqnum + datalen: 13704
+for newseqnum: 13612
+success!
+newseqnum + datalen: 13796
+for newseqnum: 13704
+success!
+newseqnum + datalen: 13888
+for newseqnum: 13796
+success!
+newseqnum + datalen: 13980
+for newseqnum: 13888
+success!
+newseqnum + datalen: 14072
+for newseqnum: 13980
+success!
+newseqnum + datalen: 14164
+for newseqnum: 14072
+success!
+ Elese Send SACK! 
+sendacknum = 14164
+ Elese Send SACK! 
+sendacknum = 14164
+ Elese Send SACK! 
+sendacknum = 14164
+end of for loop
+
+
+
+
+
+
+
+NEW CWND: 7
+newseqnum + datalen: 14256
+for newseqnum: 14164
+success!
+ I is : 1 
+newseqnum + datalen: 14348
+for newseqnum: 14256
+success!
+ I is : 2 
+newseqnum + datalen: 14440
+for newseqnum: 14348
+success!
+ I is : 3 
+newseqnum + datalen: 14532
+for newseqnum: 14440
+success!
+ I is : 4 
+newseqnum + datalen: 14624
+for newseqnum: 14532
+success!
+ I is : 5 
+newseqnum + datalen: 14716
+for newseqnum: 14624
+success!
+ I is : 6 
+
+
+
+
+NEW CWND: 1
+newseqnum + datalen: 65628
+for newseqnum: 65536
+fail
+ Elese Send DUPACK! 
+sendacknum = 14716
+ Elese Send DUPACK! 
+sendacknum = 14716
+ Elese Send DUPACK! 
+sendacknum = 14716
+newseqnum + datalen: 14808
+for newseqnum: 14716
+success!
+ Elese Send SACK! 
+sendacknum = 14808
+ Elese Send SACK! 
+sendacknum = 14808
+ Elese Send SACK! 
+sendacknum = 14808
+end of for loop
+
+
+
+
+
+
+
+NEW CWND: 2
+newseqnum + datalen: 14900
+for newseqnum: 14808
+success!
+newseqnum + datalen: 14992
+for newseqnum: 14900
+success!
+ Elese Send SACK! 
+sendacknum = 14992
+ Elese Send SACK! 
+sendacknum = 14992
+ Elese Send SACK! 
+sendacknum = 14992
+end of for loop
+
+
+
+
+
+
+
+NEW CWND: 4
+newseqnum + datalen: 15084
+for newseqnum: 14992
+success!
+newseqnum + datalen: 15176
+for newseqnum: 15084
+success!
+newseqnum + datalen: 15268
+for newseqnum: 15176
+success!
+newseqnum + datalen: 15360
+for newseqnum: 15268
+success!
+ Elese Send SACK! 
+sendacknum = 15360
+ Elese Send SACK! 
+sendacknum = 15360
+ Elese Send SACK! 
+sendacknum = 15360
+end of for loop
+
+
+
+
+
+
+
+NEW CWND: 5
+newseqnum + datalen: 15452
+for newseqnum: 15360
+success!
+newseqnum + datalen: 15544
+for newseqnum: 15452
+success!
+newseqnum + datalen: 15636
+for newseqnum: 15544
+success!
+newseqnum + datalen: 15728
+for newseqnum: 15636
+success!
+newseqnum + datalen: 15820
+for newseqnum: 15728
+success!
+ Elese Send SACK! 
+sendacknum = 15820
+ Elese Send SACK! 
+sendacknum = 15820
+ Elese Send SACK! 
+sendacknum = 15820
+end of for loop
+
+
+
+
+
+
+
+NEW CWND: 6
+newseqnum + datalen: 15912
+for newseqnum: 15820
+success!
+newseqnum + datalen: 16004
+for newseqnum: 15912
+success!
+newseqnum + datalen: 16096
+for newseqnum: 16004
+success!
+newseqnum + datalen: 16188
+for newseqnum: 16096
+success!
+newseqnum + datalen: 16280
+for newseqnum: 16188
+success!
+newseqnum + datalen: 16372
+for newseqnum: 16280
+success!
+ Elese Send SACK! 
+sendacknum = 16372
+ Elese Send SACK! 
+sendacknum = 16372
+ Elese Send SACK! 
+sendacknum = 16372
+end of for loop
+
+
+
+
+
+
+
+NEW CWND: 7
+newseqnum + datalen: 16464
+for newseqnum: 16372
+success!
+ I is : 1 
+newseqnum + datalen: 16556
+for newseqnum: 16464
+success!
+ I is : 2 
+newseqnum + datalen: 16648
+for newseqnum: 16556
+success!
+ I is : 3 
+newseqnum + datalen: 16740
+for newseqnum: 16648
+success!
+ I is : 4 
+newseqnum + datalen: 16832
+for newseqnum: 16740
+success!
+ I is : 5 
+newseqnum + datalen: 16924
+for newseqnum: 16832
+success!
+ I is : 6 
+
+
+
+
+NEW CWND: 1
+newseqnum + datalen: 65628
+for newseqnum: 65536
+fail
+ Elese Send DUPACK! 
+sendacknum = 16924
+ Elese Send DUPACK! 
+sendacknum = 16924
+ Elese Send DUPACK! 
+sendacknum = 16924
+newseqnum + datalen: 17016
+for newseqnum: 16924
+success!
+ Elese Send SACK! 
+sendacknum = 17016
+ Elese Send SACK! 
+sendacknum = 17016
+ Elese Send SACK! 
+sendacknum = 17016
+end of for loop
+
+
+
+
+
+
+
+NEW CWND: 2
+newseqnum + datalen: 17108
+for newseqnum: 17016
+success!
+newseqnum + datalen: 17200
+for newseqnum: 17108
+success!
+ Elese Send SACK! 
+sendacknum = 17200
+ Elese Send SACK! 
+sendacknum = 17200
+ Elese Send SACK! 
+sendacknum = 17200
+end of for loop
+
+
+
+
+
+
+
+NEW CWND: 4
+newseqnum + datalen: 17292
+for newseqnum: 17200
+success!
+newseqnum + datalen: 17384
+for newseqnum: 17292
+success!
+newseqnum + datalen: 17476
+for newseqnum: 17384
+success!
+newseqnum + datalen: 17568
+for newseqnum: 17476
+success!
+ Elese Send SACK! 
+sendacknum = 17568
+ Elese Send SACK! 
+sendacknum = 17568
+ Elese Send SACK! 
+sendacknum = 17568
+end of for loop
+
+
+
+
+
+
+
+NEW CWND: 5
+newseqnum + datalen: 17660
+for newseqnum: 17568
+success!
+newseqnum + datalen: 17729
+for newseqnum: 17660
+sending Final ACK! 
+sending end of file acks!
+sendacknum = 0
+sending Final ACK! 
+sending end of file acks!
+sendacknum = 0
+sending Final ACK! 
+sending end of file acks!
+sendacknum = 0

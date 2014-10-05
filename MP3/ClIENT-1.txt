@@ -1,0 +1,90 @@
+retry is: 1
+Ack for server connection!
+
+
+
+
+
+while newseqnum: 0
+file length: 746
+
+
+writelen: 88 
+sendacknum = 88
+
+
+
+
+while newseqnum: 88
+total: 180
+
+
+
+
+NEW CWND while
+writelen: 92 
+for newseqnum: 180
+writelen: 92 
+for total: 272
+sendacknum = 272
+for newseqnum: 272
+
+
+
+
+NEW CWND for
+writelen: 92 
+for total: 364
+sendacknum = 364
+for newseqnum: 364
+writelen: 92 
+for total: 456
+sendacknum = 456
+for newseqnum: 456
+writelen: 92 
+for total: 548
+sendacknum = 548
+for newseqnum: 548
+writelen: 92 
+for total: 640
+sendacknum = 640
+sendacknum = 640
+
+
+
+
+while newseqnum: 364
+total: 456
+sendacknum = 640
+
+
+
+
+while newseqnum: 456
+total: 548
+sendacknum = 640
+
+
+
+
+while newseqnum: 640
+total: 732
+
+
+
+
+NEW CWND while
+writelen: 92 
+for newseqnum: 640
+for total: 732
+sendacknum = 732
+sendacknum = 732
+
+
+
+
+while newseqnum: 732
+total: 746
+writelen: 14 
+sending end of file acks!
+sendacknum = 0

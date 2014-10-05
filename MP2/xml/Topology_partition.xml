@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Simulation>
+	<Topology>
+		<Link>
+			<node>1</node>
+			<node>2</node>
+			<cost>1</cost>
+		</Link>
+		<Link>
+			<node>1</node>
+			<node>3</node>
+			<cost>5</cost>
+		</Link>
+		<Link>
+			<node>2</node>
+			<node>3</node>
+			<cost>6</cost>
+		</Link>
+		<Link>
+			<node>4</node>
+			<node>5</node>
+			<cost>1</cost>
+		</Link>
+		<Link>
+			<node>4</node>
+			<node>3</node>
+			<cost>6</cost>
+		</Link>
+	</Topology>
+	<Events>
+		<Message>
+			<src>1</src>
+			<dst>3</dst>
+			<data>asdf</data>
+		</Message>
+		<Message>
+			<src>4</src>
+			<dst>5</dst>
+			<data>fghj</data>
+		</Message>
+		<Message>
+			<src>5</src>
+			<dst>3</dst>
+			<data>no_partmsg</data>
+		</Message>
+		<Link>
+			<node>4</node>
+			<node>3</node>
+			<cost>-1</cost>
+		</Link>
+		<Message>
+			<src>5</src>
+			<dst>3</dst>
+			<data>partmsg</data>
+		</Message>
+	</Events>
+</Simulation>
+
+

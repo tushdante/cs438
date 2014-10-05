@@ -1,0 +1,12 @@
+levitas1
+Roman Levitas
+
+I implement a PGPS scheduler by using the lecture slides (http://www.cs.utexas.edu/users/lam/386p/slides/Packet_Scheduling_algorithms.pdf)
+& the paper provided: Generalized Processor Sharing Approach to Flow Control in Integrated Services Networks: The Single-Node Case (http://ieeexplore.ieee.org/ielx4/90/6050/00234856.pdf?tp=&arnumber=234856&isnumber=6050)
+to figure out how to assign virtual times to the packets which are parsed from the input file and assigned to structs.
+
+To simulate the actual scheduler, I implemented a loop where the counter represents the real time.
+To schedule a packet, it traverses the list of packet structs, seeing which have arrived by a given real time, & then finds the minimal vtime.
+The packet with the minimal vtime gets "processed" and our counter gets incremented by its size.
+
+If there is idle time, no packet with a minimal vtime should be found so I just incrememnt the counter by one & try again.

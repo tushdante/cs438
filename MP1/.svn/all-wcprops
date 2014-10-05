@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/fa12-cs438/!svn/ver/426/levitas1/MP1
+END
+mp1.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/fa12-cs438/!svn/ver/151/levitas1/MP1/mp1.h
+END
+mp1server
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/fa12-cs438/!svn/ver/151/levitas1/MP1/mp1server
+END
+mp1_base.c
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/fa12-cs438/!svn/ver/151/levitas1/MP1/mp1_base.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/fa12-cs438/!svn/ver/426/levitas1/MP1/Makefile
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/fa12-cs438/!svn/ver/426/levitas1/MP1/README
+END
+mp1client.c
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/fa12-cs438/!svn/ver/426/levitas1/MP1/mp1client.c
+END

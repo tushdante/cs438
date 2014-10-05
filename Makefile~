@@ -1,0 +1,24 @@
+
+
+NAME_OF_EXECUTABLE_FILE = router
+
+
+COMPILER = gcc
+COMPILER_OPTS = -c -g
+
+
+LINKER = gcc
+LINKER_OPTS = -o $(NAME_OF_EXECUTABLE_FILE)
+
+OBJS = router.o
+
+
+$(NAME_OF_EXECUTABLE_FILE) : $(OBJS)
+	$(LINKER) $(LINKER_OPTS) $(OBJS) -pthread
+
+router.o : router.c
+	$(COMPILER) $(COMPILER_OPTS) router.c
+	
+	
+clean:
+	-rm *.o $(NAME_OF_EXECUTABLE_FILE)

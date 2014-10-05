@@ -1,0 +1,40 @@
+Roman Levitas levitas1
+Tushar Bhushan tbhusha2
+
+In our code, we used 3 outside sources for (1) implementing sockets communication,
+(2) a hash table to store our node identifiers & their associated data (port, nexthop,
+cost to nearest neighbors, etc) , and (3) to retrieve the external IP of the machine
+used to communicate to work around a problem we came across when trying to send with
+"localhost" for ip.
+
+(1) http://beej.us/guide/bgnet/output/html/singlepage/bgnet.html
+(2) http://uthash.sourceforge.net/userguide.html
+(3) http://www.wdailynews.com/linux-c-get-the-ip-address-of-local-computer.html
+
+Our router handles the TCP & UDP connections by creating a separate thread for the 
+UDP socket. Both TCP & UDP connections run in a while(1) waiting for terminating 
+conditions from the TCP to know when the simulation is over.
+We protect our hash table, which is shared among both threads, by a mutex lock 
+that we call everytime either thread accesses or updates the hash table.
+
+We used the distance vector routing protocol to distribute routing information
+between separate instances of the routers. We did this by sending control packets 
+over the udp: each router would go through it's list of nearest neighbors assigned
+to it by the manager over TCP (which it has already stored in its hash table) & would
+send it the routing information of all of the other nearest neighbors (sendMessage() function) needed to populate the structs in the hash table:
+/*
+struct nodeInfo 
+{
+        int ID; 
+        char hostName[15];
+        char udpPort[15];
+        char cost[15];  
+        UT_hash_handle hh;
+        int nextHop;
+};
+*/
+
+We had to put in a sleep(60) to accomodate all of the control messages coming in on time
+& having the hash table updated before the simulation starts, so that it can find the correct nexthop.
+
+We were not able to to implement loop detection or partitioned networks on time.

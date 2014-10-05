@@ -1,0 +1,24 @@
+levitas1 Roman Levitas
+tbhusha2 Tushar Bhushan
+
+High Level Design:
+
+We use Beej's guide & mp0 to make a connection to the server executable.
+
+To receive frames we have an outer while(1) loop (1 iteration==1 frame) & a nested loop that 
+calls mp1_read as many times as it is necessary to get 1024 bytes for a frame.
+
+Once a frame has been received, a flag is set, & we pass the first 1022 bytes to our crc12 check function which 
+decides if the frame passes & to enqueue it or to discard it.
+
+We use a queue implemented as a  linked list to store all of the passed frames and once mp1_read returns 0, we parse our queueue,
+and write the frames to their respective file_posn's.
+
+Main Bugs:
+Not adjusting the max_data parameter in MP1_read to 1024-received to ensure that we get multiples of 1024...
+handout & messageboard made it seem like this would be taken care of server-side.
+
+Passing NULL instead of Port for  getaddrinfo ( hostname , port, &hints, &res)...that one took us a while.
+
+CRC: we attempted our own implementation of mapping out each bit from the 1022 bytes into a seperate array of length 8*1022 using char's which turned out to be a 5 day failure...
+went with the wikipedia implementation (http://en.wikipedia.org/wiki/Computation_of_CRC#Implementation)

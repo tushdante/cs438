@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/fa12-cs438/!svn/ver/189/levitas1/MP0
+END
+client.c
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/fa12-cs438/!svn/ver/1147/levitas1/MP0/client.c
+END
+talker.c
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/fa12-cs438/!svn/ver/189/levitas1/MP0/talker.c
+END
+listener.c
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/fa12-cs438/!svn/ver/189/levitas1/MP0/listener.c
+END
+server.c
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/fa12-cs438/!svn/ver/189/levitas1/MP0/server.c
+END

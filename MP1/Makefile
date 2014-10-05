@@ -1,0 +1,27 @@
+
+
+NAME_OF_EXECUTABLE_FILE = mp1client
+
+
+COMPILER = gcc
+COMPILER_OPTS = -c -g
+
+
+LINKER = gcc
+LINKER_OPTS = -o $(NAME_OF_EXECUTABLE_FILE)
+
+OBJS = mp1client.o mp1_base.o
+
+
+$(NAME_OF_EXECUTABLE_FILE) : $(OBJS)
+	$(LINKER) $(LINKER_OPTS) $(OBJS)
+
+mp1_base.o : mp1.h
+	$(COMPILER) $(COMPILER_OPTS) mp1_base.c
+	
+	
+mp1client.o : mp1_base.c mp1.h
+	$(COMPILER) $(COMPILER_OPTS) mp1client.c
+
+clean:
+	-rm *.o $(NAME_OF_EXECUTABLE_FILE)

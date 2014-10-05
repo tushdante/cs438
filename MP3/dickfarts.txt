@@ -1,0 +1,98 @@
+port: 1234
+input file name: bitch.txt
+file size: 746
+Listening for connections...
+No connection received
+Connection Accepted
+buff is : Connect 
+sending init packet 0 
+init packet succcessful
+initdata: 88
+ACK for init, expects: 88
+slow start begins! seqnum: 88 
+Slow start tits 
+FOR slowstart: transmitting seqnum: 88	
+FOR slowstart: transmitting seqnum: 180	
+
+ 
+ 
+ 
+ 
+ packetsAcked cwnd: 2
+ sendseq:272
+Timeout on packet 272!
+slow start packetsAcketd ret=2
+ Inside Linear's ass
+ sendseqnum = 272 
+
+ 
+ 
+ 
+ 
+ packetsAcked cwnd: 1
+ sendseq:364
+packetsAcked expects: 364
+sendseqnum + datalen : 456
+Ack for packet 364 recieved 
+
+ 
+ 
+ 
+ 
+ packetsAcked cwnd: 2
+ sendseq:548
+Timeout on packet 548!
+Slow start tits 
+ Inside Linear's ass
+ sendseqnum = 364 
+
+ 
+ 
+ 
+ 
+ packetsAcked cwnd: 1
+ sendseq:456
+packetsAcked expects: 548
+sendseqnum + datalen : 548
+Dupack expects packet 548 
+
+ 
+ 
+ 
+ 
+ packetsAcked cwnd: 1
+ sendseq:640
+Timeout on packet 640!
+Slow start tits 
+ Inside Linear's ass
+ sendseqnum = 548 
+
+ 
+ 
+ 
+ 
+ packetsAcked cwnd: 1
+ sendseq:640
+packetsAcked expects: 640
+sendseqnum + datalen : 732
+Ack for packet 640 recieved 
+
+ 
+ 
+ 
+ 
+ packetsAcked cwnd: 2
+ sendseq:746
+packetsAcked expects: 640
+sendseqnum + datalen : 838
+Dupack expects packet 640 
+
+ 
+ 
+ 
+ 
+ packetsAcked cwnd: 1
+ sendseq:732
+packetsAcked expects: 0
+sendseqnum + datalen : 824
+Client received file!

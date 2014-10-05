@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Simulation>
+	<Topology>
+		<Link>
+			<node>16962</node>
+			<node>16963</node>
+			<cost>1</cost>
+		</Link>
+		<Link>
+			<node>16962</node>
+			<node>16964</node>
+			<cost>5</cost>
+		</Link>
+		<Link>
+			<node>16963</node>
+			<node>16964</node>
+			<cost>6</cost>
+		</Link>
+	</Topology>
+	<Events>
+		<Message>
+			<src>16962</src>
+			<dst>16963</dst>
+			<data>asdf</data>
+		</Message>
+		<Message>
+			<src>16962</src>
+			<dst>16964</dst>
+			<data>fghj</data>
+		</Message>
+	</Events>
+</Simulation>
+

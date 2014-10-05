@@ -1,0 +1,703 @@
+port: 1234
+input file name: bitch.txt
+file size: 17729
+Listening for connections...
+No connection received
+Connection Accepted
+buff is : Connect 
+Time  || Send || phase || cwnd || ssthresh 
+sending init packet 0 
+Time: 1355723175.675264  || 0 : 92 (92) ||      slow start      || 1 || 65536 
+init packet succcessful
+slow start begins! seqnum: 88 
+Time: 1355723175.715567  || 88 : 180 (92) ||      slow start      || 2 || 65536 
+Time: 1355723175.715572  || 180 : 272 (92) ||      slow start      || 2 || 65536 
+
+
+ACK
+Time:   || ACK # || phase || cwnd || ssthresh
+Time: 1355723175.765962 || ACK 272 ||      slow start      || 2 || 65536
+ACK # 272 is CORRECT 
+
+
+Time: 1355723175.786064  || 272 : 364 (92) ||      slow start      || 4 || 65536 
+Time: 1355723175.786070  || 364 : 456 (92) ||      slow start      || 4 || 65536 
+Time: 1355723175.786071  || 456 : 548 (92) ||      slow start      || 4 || 65536 
+Time: 1355723175.786072  || 548 : 640 (92) ||      slow start      || 4 || 65536 
+
+
+ACK
+Time:   || ACK # || phase || cwnd || ssthresh
+Time: 1355723175.856582 || ACK 640 ||      slow start      || 4 || 65536
+ACK # 640 is CORRECT 
+
+
+Time: 1355723175.876696  || 640 : 732 (92) ||      slow start      || 8 || 65536 
+Time: 1355723175.876702  || 732 : 824 (92) ||      slow start      || 8 || 65536 
+Time: 1355723175.876703  || 824 : 916 (92) ||      slow start      || 8 || 65536 
+Time: 1355723175.876704  || 916 : 1008 (92) ||      slow start      || 8 || 65536 
+Time: 1355723175.876705  || 1008 : 1100 (92) ||      slow start      || 8 || 65536 
+Time: 1355723175.876707  || 1100 : 1192 (92) ||      slow start      || 8 || 65536 
+Time: 1355723175.876708  || 1192 : 1284 (92) ||      slow start      || 8 || 65536 
+Time: 1355723175.876709  || 1284 : 1376 (92) ||      slow start      || 8 || 65536 
+
+
+ACK
+Time:   || ACK # || phase || cwnd || ssthresh
+ACK # 1376 not received: TIMEOUT
+
+
+Time: 1355723177.377967  || 1376 : 1468 (92) ||      slow start      || 1 || 4 
+
+
+ACK
+Time:   || ACK # || phase || cwnd || ssthresh
+Time: 1355723177.418241 || ACK 1192 ||      slow start      || 1 || 4
+ACK # 1192 is DUPACK
+
+
+Time: 1355723177.438384  || 1192 : 1284 (92) || congestion avoidance || 1 || 1 
+
+
+ACK
+Time:   || ACK # || phase || cwnd || ssthresh
+Time: 1355723177.478654 || ACK 1284 || congestion avoidance || 1 || 1
+ACK # 1284 is CORRECT 
+
+
+Time: 1355723177.498801  || 1284 : 1376 (92) || congestion avoidance || 2 || 1 
+Time: 1355723177.498806  || 1376 : 1468 (92) || congestion avoidance || 2 || 1 
+
+
+ACK
+Time:   || ACK # || phase || cwnd || ssthresh
+Time: 1355723177.549945 || ACK 1468 || congestion avoidance || 2 || 1
+ACK # 1468 is CORRECT 
+
+
+Time: 1355723177.570043  || 1468 : 1560 (92) || congestion avoidance || 3 || 1 
+Time: 1355723177.570048  || 1560 : 1652 (92) || congestion avoidance || 3 || 1 
+Time: 1355723177.570050  || 1652 : 1744 (92) || congestion avoidance || 3 || 1 
+
+
+ACK
+Time:   || ACK # || phase || cwnd || ssthresh
+Time: 1355723177.630489 || ACK 1744 || congestion avoidance || 3 || 1
+ACK # 1744 is CORRECT 
+
+
+Time: 1355723177.650593  || 1744 : 1836 (92) || congestion avoidance || 4 || 1 
+Time: 1355723177.650599  || 1836 : 1928 (92) || congestion avoidance || 4 || 1 
+Time: 1355723177.650601  || 1928 : 2020 (92) || congestion avoidance || 4 || 1 
+Time: 1355723177.650602  || 2020 : 2112 (92) || congestion avoidance || 4 || 1 
+
+
+ACK
+Time:   || ACK # || phase || cwnd || ssthresh
+Time: 1355723177.721095 || ACK 2112 || congestion avoidance || 4 || 1
+ACK # 2112 is CORRECT 
+
+
+Time: 1355723177.741316  || 2112 : 2204 (92) || congestion avoidance || 5 || 1 
+Time: 1355723177.741322  || 2204 : 2296 (92) || congestion avoidance || 5 || 1 
+Time: 1355723177.741323  || 2296 : 2388 (92) || congestion avoidance || 5 || 1 
+Time: 1355723177.741324  || 2388 : 2480 (92) || congestion avoidance || 5 || 1 
+Time: 1355723177.741325  || 2480 : 2572 (92) || congestion avoidance || 5 || 1 
+
+
+ACK
+Time:   || ACK # || phase || cwnd || ssthresh
+Time: 1355723177.821909 || ACK 2572 || congestion avoidance || 5 || 1
+ACK # 2572 is CORRECT 
+
+
+Time: 1355723177.842107  || 2572 : 2664 (92) || congestion avoidance || 6 || 1 
+Time: 1355723177.842115  || 2664 : 2756 (92) || congestion avoidance || 6 || 1 
+Time: 1355723177.842117  || 2756 : 2848 (92) || congestion avoidance || 6 || 1 
+Time: 1355723177.842118  || 2848 : 2940 (92) || congestion avoidance || 6 || 1 
+Time: 1355723177.842119  || 2940 : 3032 (92) || congestion avoidance || 6 || 1 
+Time: 1355723177.842120  || 3032 : 3124 (92) || congestion avoidance || 6 || 1 
+
+
+ACK
+Time:   || ACK # || phase || cwnd || ssthresh
+Time: 1355723177.932770 || ACK 3124 || congestion avoidance || 6 || 1
+ACK # 3124 is CORRECT 
+
+
+Time: 1355723177.952878  || 3124 : 3216 (92) || congestion avoidance || 7 || 1 
+Time: 1355723177.952883  || 3216 : 3308 (92) || congestion avoidance || 7 || 1 
+Time: 1355723177.952884  || 3308 : 3400 (92) || congestion avoidance || 7 || 1 
+Time: 1355723177.952885  || 3400 : 3492 (92) || congestion avoidance || 7 || 1 
+Time: 1355723177.952886  || 3492 : 3584 (92) || congestion avoidance || 7 || 1 
+Time: 1355723177.952887  || 3584 : 3676 (92) || congestion avoidance || 7 || 1 
+Time: 1355723177.952888  || 3676 : 3768 (92) || congestion avoidance || 7 || 1 
+
+
+ACK
+Time:   || ACK # || phase || cwnd || ssthresh
+ACK # 3768 not received: TIMEOUT
+
+
+
+
+ignore the next transmit & ack!! used to get expected sendseq # so slow start doesn't default to linear growth
+
+Time: 1355723179.453717  || 3768 : 3860 (92) || congestion avoidance || 1 || 4 
+
+
+ACK
+Time:   || ACK # || phase || cwnd || ssthresh
+Time: 1355723179.494037 || ACK 3676 || congestion avoidance || 1 || 4
+ACK # 3676 is DUPACK
+
+
+Time: 1355723179.514145  || 3676 : 3768 (92) ||      slow start      || 1 || 4 
+
+
+ACK
+Time:   || ACK # || phase || cwnd || ssthresh
+Time: 1355723179.554418 || ACK 3768 ||      slow start      || 1 || 4
+ACK # 3768 is CORRECT 
+
+
+Time: 1355723179.574564  || 3768 : 3860 (92) ||      slow start      || 2 || 4 
+Time: 1355723179.574570  || 3860 : 3952 (92) ||      slow start      || 2 || 4 
+
+
+ACK
+Time:   || ACK # || phase || cwnd || ssthresh
+Time: 1355723179.624967 || ACK 3952 ||      slow start      || 2 || 4
+ACK # 3952 is CORRECT 
+
+
+Time: 1355723179.645060  || 3952 : 4044 (92) || congestion avoidance || 4 || 4 
+Time: 1355723179.645065  || 4044 : 4136 (92) || congestion avoidance || 4 || 4 
+Time: 1355723179.645067  || 4136 : 4228 (92) || congestion avoidance || 4 || 4 
+Time: 1355723179.645068  || 4228 : 4320 (92) || congestion avoidance || 4 || 4 
+
+
+ACK
+Time:   || ACK # || phase || cwnd || ssthresh
+Time: 1355723179.715588 || ACK 4320 || congestion avoidance || 4 || 4
+ACK # 4320 is CORRECT 
+
+
+Time: 1355723179.735692  || 4320 : 4412 (92) || congestion avoidance || 5 || 4 
+Time: 1355723179.735697  || 4412 : 4504 (92) || congestion avoidance || 5 || 4 
+Time: 1355723179.735699  || 4504 : 4596 (92) || congestion avoidance || 5 || 4 
+Time: 1355723179.735700  || 4596 : 4688 (92) || congestion avoidance || 5 || 4 
+Time: 1355723179.735701  || 4688 : 4780 (92) || congestion avoidance || 5 || 4 
+
+
+ACK
+Time:   || ACK # || phase || cwnd || ssthresh
+Time: 1355723179.816303 || ACK 4780 || congestion avoidance || 5 || 4
+ACK # 4780 is CORRECT 
+
+
+Time: 1355723179.836407  || 4780 : 4872 (92) || congestion avoidance || 6 || 4 
+Time: 1355723179.836412  || 4872 : 4964 (92) || congestion avoidance || 6 || 4 
+Time: 1355723179.836413  || 4964 : 5056 (92) || congestion avoidance || 6 || 4 
+Time: 1355723179.836414  || 5056 : 5148 (92) || congestion avoidance || 6 || 4 
+Time: 1355723179.836415  || 5148 : 5240 (92) || congestion avoidance || 6 || 4 
+Time: 1355723179.836416  || 5240 : 5332 (92) || congestion avoidance || 6 || 4 
+
+
+ACK
+Time:   || ACK # || phase || cwnd || ssthresh
+Time: 1355723179.927069 || ACK 5332 || congestion avoidance || 6 || 4
+ACK # 5332 is CORRECT 
+
+
+Time: 1355723179.947173  || 5332 : 5424 (92) || congestion avoidance || 7 || 4 
+Time: 1355723179.947178  || 5424 : 5516 (92) || congestion avoidance || 7 || 4 
+Time: 1355723179.947180  || 5516 : 5608 (92) || congestion avoidance || 7 || 4 
+Time: 1355723179.947181  || 5608 : 5700 (92) || congestion avoidance || 7 || 4 
+Time: 1355723179.947186  || 5700 : 5792 (92) || congestion avoidance || 7 || 4 
+Time: 1355723179.947189  || 5792 : 5884 (92) || congestion avoidance || 7 || 4 
+Time: 1355723179.947190  || 5884 : 5976 (92) || congestion avoidance || 7 || 4 
+
+
+ACK
+Time:   || ACK # || phase || cwnd || ssthresh
+ACK # 5976 not received: TIMEOUT
+
+
+
+
+ignore the next transmit & ack!! used to get expected sendseq # so slow start doesn't default to linear growth
+
+Time: 1355723181.447715  || 5976 : 6068 (92) || congestion avoidance || 1 || 4 
+
+
+ACK
+Time:   || ACK # || phase || cwnd || ssthresh
+Time: 1355723181.488032 || ACK 5884 || congestion avoidance || 1 || 4
+ACK # 5884 is DUPACK
+
+
+Time: 1355723181.508136  || 5884 : 5976 (92) ||      slow start      || 1 || 4 
+
+
+ACK
+Time:   || ACK # || phase || cwnd || ssthresh
+Time: 1355723181.548454 || ACK 5976 ||      slow start      || 1 || 4
+ACK # 5976 is CORRECT 
+
+
+Time: 1355723181.568557  || 5976 : 6068 (92) ||      slow start      || 2 || 4 
+Time: 1355723181.568563  || 6068 : 6160 (92) ||      slow start      || 2 || 4 
+
+
+ACK
+Time:   || ACK # || phase || cwnd || ssthresh
+Time: 1355723181.618951 || ACK 6160 ||      slow start      || 2 || 4
+ACK # 6160 is CORRECT 
+
+
+Time: 1355723181.639056  || 6160 : 6252 (92) || congestion avoidance || 4 || 4 
+Time: 1355723181.639061  || 6252 : 6344 (92) || congestion avoidance || 4 || 4 
+Time: 1355723181.639062  || 6344 : 6436 (92) || congestion avoidance || 4 || 4 
+Time: 1355723181.639063  || 6436 : 6528 (92) || congestion avoidance || 4 || 4 
+
+
+ACK
+Time:   || ACK # || phase || cwnd || ssthresh
+Time: 1355723181.709586 || ACK 6528 || congestion avoidance || 4 || 4
+ACK # 6528 is CORRECT 
+
+
+Time: 1355723181.729689  || 6528 : 6620 (92) || congestion avoidance || 5 || 4 
+Time: 1355723181.729694  || 6620 : 6712 (92) || congestion avoidance || 5 || 4 
+Time: 1355723181.729696  || 6712 : 6804 (92) || congestion avoidance || 5 || 4 
+Time: 1355723181.729697  || 6804 : 6896 (92) || congestion avoidance || 5 || 4 
+Time: 1355723181.729698  || 6896 : 6988 (92) || congestion avoidance || 5 || 4 
+
+
+ACK
+Time:   || ACK # || phase || cwnd || ssthresh
+Time: 1355723181.810286 || ACK 6988 || congestion avoidance || 5 || 4
+ACK # 6988 is CORRECT 
+
+
+Time: 1355723181.830389  || 6988 : 7080 (92) || congestion avoidance || 6 || 4 
+Time: 1355723181.830394  || 7080 : 7172 (92) || congestion avoidance || 6 || 4 
+Time: 1355723181.830396  || 7172 : 7264 (92) || congestion avoidance || 6 || 4 
+Time: 1355723181.830396  || 7264 : 7356 (92) || congestion avoidance || 6 || 4 
+Time: 1355723181.830397  || 7356 : 7448 (92) || congestion avoidance || 6 || 4 
+Time: 1355723181.830398  || 7448 : 7540 (92) || congestion avoidance || 6 || 4 
+
+
+ACK
+Time:   || ACK # || phase || cwnd || ssthresh
+Time: 1355723181.921016 || ACK 7540 || congestion avoidance || 6 || 4
+ACK # 7540 is CORRECT 
+
+
+Time: 1355723181.941169  || 7540 : 7632 (92) || congestion avoidance || 7 || 4 
+Time: 1355723181.941173  || 7632 : 7724 (92) || congestion avoidance || 7 || 4 
+Time: 1355723181.941175  || 7724 : 7816 (92) || congestion avoidance || 7 || 4 
+Time: 1355723181.941176  || 7816 : 7908 (92) || congestion avoidance || 7 || 4 
+Time: 1355723181.941177  || 7908 : 8000 (92) || congestion avoidance || 7 || 4 
+Time: 1355723181.941178  || 8000 : 8092 (92) || congestion avoidance || 7 || 4 
+Time: 1355723181.941179  || 8092 : 8184 (92) || congestion avoidance || 7 || 4 
+
+
+ACK
+Time:   || ACK # || phase || cwnd || ssthresh
+ACK # 8184 not received: TIMEOUT
+
+
+
+
+ignore the next transmit & ack!! used to get expected sendseq # so slow start doesn't default to linear growth
+
+Time: 1355723183.441715  || 8184 : 8276 (92) || congestion avoidance || 1 || 4 
+
+
+ACK
+Time:   || ACK # || phase || cwnd || ssthresh
+Time: 1355723183.482035 || ACK 8092 || congestion avoidance || 1 || 4
+ACK # 8092 is DUPACK
+
+
+Time: 1355723183.502138  || 8092 : 8184 (92) ||      slow start      || 1 || 4 
+
+
+ACK
+Time:   || ACK # || phase || cwnd || ssthresh
+Time: 1355723183.542456 || ACK 8184 ||      slow start      || 1 || 4
+ACK # 8184 is CORRECT 
+
+
+Time: 1355723183.562559  || 8184 : 8276 (92) ||      slow start      || 2 || 4 
+Time: 1355723183.562567  || 8276 : 8368 (92) ||      slow start      || 2 || 4 
+
+
+ACK
+Time:   || ACK # || phase || cwnd || ssthresh
+Time: 1355723183.612958 || ACK 8368 ||      slow start      || 2 || 4
+ACK # 8368 is CORRECT 
+
+
+Time: 1355723183.633062  || 8368 : 8460 (92) || congestion avoidance || 4 || 4 
+Time: 1355723183.633068  || 8460 : 8552 (92) || congestion avoidance || 4 || 4 
+Time: 1355723183.633069  || 8552 : 8644 (92) || congestion avoidance || 4 || 4 
+Time: 1355723183.633070  || 8644 : 8736 (92) || congestion avoidance || 4 || 4 
+
+
+ACK
+Time:   || ACK # || phase || cwnd || ssthresh
+Time: 1355723183.703597 || ACK 8736 || congestion avoidance || 4 || 4
+ACK # 8736 is CORRECT 
+
+
+Time: 1355723183.723701  || 8736 : 8828 (92) || congestion avoidance || 5 || 4 
+Time: 1355723183.723706  || 8828 : 8920 (92) || congestion avoidance || 5 || 4 
+Time: 1355723183.723708  || 8920 : 9012 (92) || congestion avoidance || 5 || 4 
+Time: 1355723183.723709  || 9012 : 9104 (92) || congestion avoidance || 5 || 4 
+Time: 1355723183.723716  || 9104 : 9196 (92) || congestion avoidance || 5 || 4 
+
+
+ACK
+Time:   || ACK # || phase || cwnd || ssthresh
+Time: 1355723183.804324 || ACK 9196 || congestion avoidance || 5 || 4
+ACK # 9196 is CORRECT 
+
+
+Time: 1355723183.824428  || 9196 : 9288 (92) || congestion avoidance || 6 || 4 
+Time: 1355723183.824433  || 9288 : 9380 (92) || congestion avoidance || 6 || 4 
+Time: 1355723183.824435  || 9380 : 9472 (92) || congestion avoidance || 6 || 4 
+Time: 1355723183.824436  || 9472 : 9564 (92) || congestion avoidance || 6 || 4 
+Time: 1355723183.824437  || 9564 : 9656 (92) || congestion avoidance || 6 || 4 
+Time: 1355723183.824438  || 9656 : 9748 (92) || congestion avoidance || 6 || 4 
+
+
+ACK
+Time:   || ACK # || phase || cwnd || ssthresh
+Time: 1355723183.915098 || ACK 9748 || congestion avoidance || 6 || 4
+ACK # 9748 is CORRECT 
+
+
+Time: 1355723183.935206  || 9748 : 9840 (92) || congestion avoidance || 7 || 4 
+Time: 1355723183.935211  || 9840 : 9932 (92) || congestion avoidance || 7 || 4 
+Time: 1355723183.935212  || 9932 : 10024 (92) || congestion avoidance || 7 || 4 
+Time: 1355723183.935213  || 10024 : 10116 (92) || congestion avoidance || 7 || 4 
+Time: 1355723183.935215  || 10116 : 10208 (92) || congestion avoidance || 7 || 4 
+Time: 1355723183.935215  || 10208 : 10300 (92) || congestion avoidance || 7 || 4 
+Time: 1355723183.935216  || 10300 : 10392 (92) || congestion avoidance || 7 || 4 
+
+
+ACK
+Time:   || ACK # || phase || cwnd || ssthresh
+ACK # 10392 not received: TIMEOUT
+
+
+
+
+ignore the next transmit & ack!! used to get expected sendseq # so slow start doesn't default to linear growth
+
+Time: 1355723185.436715  || 10392 : 10484 (92) || congestion avoidance || 1 || 4 
+
+
+ACK
+Time:   || ACK # || phase || cwnd || ssthresh
+Time: 1355723185.477032 || ACK 10300 || congestion avoidance || 1 || 4
+ACK # 10300 is DUPACK
+
+
+Time: 1355723185.497136  || 10300 : 10392 (92) ||      slow start      || 1 || 4 
+
+
+ACK
+Time:   || ACK # || phase || cwnd || ssthresh
+Time: 1355723185.537451 || ACK 10392 ||      slow start      || 1 || 4
+ACK # 10392 is CORRECT 
+
+
+Time: 1355723185.557577  || 10392 : 10484 (92) ||      slow start      || 2 || 4 
+Time: 1355723185.557608  || 10484 : 10576 (92) ||      slow start      || 2 || 4 
+
+
+ACK
+Time:   || ACK # || phase || cwnd || ssthresh
+Time: 1355723185.608000 || ACK 10576 ||      slow start      || 2 || 4
+ACK # 10576 is CORRECT 
+
+
+Time: 1355723185.628104  || 10576 : 10668 (92) || congestion avoidance || 4 || 4 
+Time: 1355723185.628109  || 10668 : 10760 (92) || congestion avoidance || 4 || 4 
+Time: 1355723185.628111  || 10760 : 10852 (92) || congestion avoidance || 4 || 4 
+Time: 1355723185.628112  || 10852 : 10944 (92) || congestion avoidance || 4 || 4 
+
+
+ACK
+Time:   || ACK # || phase || cwnd || ssthresh
+Time: 1355723185.698633 || ACK 10944 || congestion avoidance || 4 || 4
+ACK # 10944 is CORRECT 
+
+
+Time: 1355723185.718736  || 10944 : 11036 (92) || congestion avoidance || 5 || 4 
+Time: 1355723185.718741  || 11036 : 11128 (92) || congestion avoidance || 5 || 4 
+Time: 1355723185.718743  || 11128 : 11220 (92) || congestion avoidance || 5 || 4 
+Time: 1355723185.718747  || 11220 : 11312 (92) || congestion avoidance || 5 || 4 
+Time: 1355723185.718748  || 11312 : 11404 (92) || congestion avoidance || 5 || 4 
+
+
+ACK
+Time:   || ACK # || phase || cwnd || ssthresh
+Time: 1355723185.799333 || ACK 11404 || congestion avoidance || 5 || 4
+ACK # 11404 is CORRECT 
+
+
+Time: 1355723185.819441  || 11404 : 11496 (92) || congestion avoidance || 6 || 4 
+Time: 1355723185.819447  || 11496 : 11588 (92) || congestion avoidance || 6 || 4 
+Time: 1355723185.819448  || 11588 : 11680 (92) || congestion avoidance || 6 || 4 
+Time: 1355723185.819449  || 11680 : 11772 (92) || congestion avoidance || 6 || 4 
+Time: 1355723185.819450  || 11772 : 11864 (92) || congestion avoidance || 6 || 4 
+Time: 1355723185.819451  || 11864 : 11956 (92) || congestion avoidance || 6 || 4 
+
+
+ACK
+Time:   || ACK # || phase || cwnd || ssthresh
+Time: 1355723185.910123 || ACK 11956 || congestion avoidance || 6 || 4
+ACK # 11956 is CORRECT 
+
+
+Time: 1355723185.930226  || 11956 : 12048 (92) || congestion avoidance || 7 || 4 
+Time: 1355723185.930233  || 12048 : 12140 (92) || congestion avoidance || 7 || 4 
+Time: 1355723185.930234  || 12140 : 12232 (92) || congestion avoidance || 7 || 4 
+Time: 1355723185.930235  || 12232 : 12324 (92) || congestion avoidance || 7 || 4 
+Time: 1355723185.930236  || 12324 : 12416 (92) || congestion avoidance || 7 || 4 
+Time: 1355723185.930237  || 12416 : 12508 (92) || congestion avoidance || 7 || 4 
+Time: 1355723185.930238  || 12508 : 12600 (92) || congestion avoidance || 7 || 4 
+
+
+ACK
+Time:   || ACK # || phase || cwnd || ssthresh
+ACK # 12600 not received: TIMEOUT
+
+
+
+
+ignore the next transmit & ack!! used to get expected sendseq # so slow start doesn't default to linear growth
+
+Time: 1355723187.431715  || 12600 : 12692 (92) || congestion avoidance || 1 || 4 
+
+
+ACK
+Time:   || ACK # || phase || cwnd || ssthresh
+Time: 1355723187.472039 || ACK 12508 || congestion avoidance || 1 || 4
+ACK # 12508 is DUPACK
+
+
+Time: 1355723187.492142  || 12508 : 12600 (92) ||      slow start      || 1 || 4 
+
+
+ACK
+Time:   || ACK # || phase || cwnd || ssthresh
+Time: 1355723187.532468 || ACK 12600 ||      slow start      || 1 || 4
+ACK # 12600 is CORRECT 
+
+
+Time: 1355723187.552572  || 12600 : 12692 (92) ||      slow start      || 2 || 4 
+Time: 1355723187.552577  || 12692 : 12784 (92) ||      slow start      || 2 || 4 
+
+
+ACK
+Time:   || ACK # || phase || cwnd || ssthresh
+Time: 1355723187.602970 || ACK 12784 ||      slow start      || 2 || 4
+ACK # 12784 is CORRECT 
+
+
+Time: 1355723187.623068  || 12784 : 12876 (92) || congestion avoidance || 4 || 4 
+Time: 1355723187.623073  || 12876 : 12968 (92) || congestion avoidance || 4 || 4 
+Time: 1355723187.623074  || 12968 : 13060 (92) || congestion avoidance || 4 || 4 
+Time: 1355723187.623075  || 13060 : 13152 (92) || congestion avoidance || 4 || 4 
+
+
+ACK
+Time:   || ACK # || phase || cwnd || ssthresh
+Time: 1355723187.693598 || ACK 13152 || congestion avoidance || 4 || 4
+ACK # 13152 is CORRECT 
+
+
+Time: 1355723187.713701  || 13152 : 13244 (92) || congestion avoidance || 5 || 4 
+Time: 1355723187.713707  || 13244 : 13336 (92) || congestion avoidance || 5 || 4 
+Time: 1355723187.713708  || 13336 : 13428 (92) || congestion avoidance || 5 || 4 
+Time: 1355723187.713715  || 13428 : 13520 (92) || congestion avoidance || 5 || 4 
+Time: 1355723187.713716  || 13520 : 13612 (92) || congestion avoidance || 5 || 4 
+
+
+ACK
+Time:   || ACK # || phase || cwnd || ssthresh
+Time: 1355723187.794284 || ACK 13612 || congestion avoidance || 5 || 4
+ACK # 13612 is CORRECT 
+
+
+Time: 1355723187.814430  || 13612 : 13704 (92) || congestion avoidance || 6 || 4 
+Time: 1355723187.814435  || 13704 : 13796 (92) || congestion avoidance || 6 || 4 
+Time: 1355723187.814437  || 13796 : 13888 (92) || congestion avoidance || 6 || 4 
+Time: 1355723187.814438  || 13888 : 13980 (92) || congestion avoidance || 6 || 4 
+Time: 1355723187.814438  || 13980 : 14072 (92) || congestion avoidance || 6 || 4 
+Time: 1355723187.814439  || 14072 : 14164 (92) || congestion avoidance || 6 || 4 
+
+
+ACK
+Time:   || ACK # || phase || cwnd || ssthresh
+Time: 1355723187.905103 || ACK 14164 || congestion avoidance || 6 || 4
+ACK # 14164 is CORRECT 
+
+
+Time: 1355723187.925207  || 14164 : 14256 (92) || congestion avoidance || 7 || 4 
+Time: 1355723187.925213  || 14256 : 14348 (92) || congestion avoidance || 7 || 4 
+Time: 1355723187.925215  || 14348 : 14440 (92) || congestion avoidance || 7 || 4 
+Time: 1355723187.925216  || 14440 : 14532 (92) || congestion avoidance || 7 || 4 
+Time: 1355723187.925217  || 14532 : 14624 (92) || congestion avoidance || 7 || 4 
+Time: 1355723187.925218  || 14624 : 14716 (92) || congestion avoidance || 7 || 4 
+Time: 1355723187.925219  || 14716 : 14808 (92) || congestion avoidance || 7 || 4 
+
+
+ACK
+Time:   || ACK # || phase || cwnd || ssthresh
+ACK # 14808 not received: TIMEOUT
+
+
+
+
+ignore the next transmit & ack!! used to get expected sendseq # so slow start doesn't default to linear growth
+
+Time: 1355723189.426715  || 14808 : 14900 (92) || congestion avoidance || 1 || 4 
+
+
+ACK
+Time:   || ACK # || phase || cwnd || ssthresh
+Time: 1355723189.467031 || ACK 14716 || congestion avoidance || 1 || 4
+ACK # 14716 is DUPACK
+
+
+Time: 1355723189.487134  || 14716 : 14808 (92) ||      slow start      || 1 || 4 
+
+
+ACK
+Time:   || ACK # || phase || cwnd || ssthresh
+Time: 1355723189.527451 || ACK 14808 ||      slow start      || 1 || 4
+ACK # 14808 is CORRECT 
+
+
+Time: 1355723189.547554  || 14808 : 14900 (92) ||      slow start      || 2 || 4 
+Time: 1355723189.547560  || 14900 : 14992 (92) ||      slow start      || 2 || 4 
+
+
+ACK
+Time:   || ACK # || phase || cwnd || ssthresh
+Time: 1355723189.597907 || ACK 14992 ||      slow start      || 2 || 4
+ACK # 14992 is CORRECT 
+
+
+Time: 1355723189.618053  || 14992 : 15084 (92) || congestion avoidance || 4 || 4 
+Time: 1355723189.618058  || 15084 : 15176 (92) || congestion avoidance || 4 || 4 
+Time: 1355723189.618060  || 15176 : 15268 (92) || congestion avoidance || 4 || 4 
+Time: 1355723189.618061  || 15268 : 15360 (92) || congestion avoidance || 4 || 4 
+
+
+ACK
+Time:   || ACK # || phase || cwnd || ssthresh
+Time: 1355723189.688584 || ACK 15360 || congestion avoidance || 4 || 4
+ACK # 15360 is CORRECT 
+
+
+Time: 1355723189.708687  || 15360 : 15452 (92) || congestion avoidance || 5 || 4 
+Time: 1355723189.708692  || 15452 : 15544 (92) || congestion avoidance || 5 || 4 
+Time: 1355723189.708694  || 15544 : 15636 (92) || congestion avoidance || 5 || 4 
+Time: 1355723189.708695  || 15636 : 15728 (92) || congestion avoidance || 5 || 4 
+Time: 1355723189.708695  || 15728 : 15820 (92) || congestion avoidance || 5 || 4 
+
+
+ACK
+Time:   || ACK # || phase || cwnd || ssthresh
+Time: 1355723189.789283 || ACK 15820 || congestion avoidance || 5 || 4
+ACK # 15820 is CORRECT 
+
+
+Time: 1355723189.809381  || 15820 : 15912 (92) || congestion avoidance || 6 || 4 
+Time: 1355723189.809386  || 15912 : 16004 (92) || congestion avoidance || 6 || 4 
+Time: 1355723189.809388  || 16004 : 16096 (92) || congestion avoidance || 6 || 4 
+Time: 1355723189.809389  || 16096 : 16188 (92) || congestion avoidance || 6 || 4 
+Time: 1355723189.809390  || 16188 : 16280 (92) || congestion avoidance || 6 || 4 
+Time: 1355723189.809391  || 16280 : 16372 (92) || congestion avoidance || 6 || 4 
+
+
+ACK
+Time:   || ACK # || phase || cwnd || ssthresh
+Time: 1355723189.900049 || ACK 16372 || congestion avoidance || 6 || 4
+ACK # 16372 is CORRECT 
+
+
+Time: 1355723189.920145  || 16372 : 16464 (92) || congestion avoidance || 7 || 4 
+Time: 1355723189.920150  || 16464 : 16556 (92) || congestion avoidance || 7 || 4 
+Time: 1355723189.920152  || 16556 : 16648 (92) || congestion avoidance || 7 || 4 
+Time: 1355723189.920153  || 16648 : 16740 (92) || congestion avoidance || 7 || 4 
+Time: 1355723189.920154  || 16740 : 16832 (92) || congestion avoidance || 7 || 4 
+Time: 1355723189.920155  || 16832 : 16924 (92) || congestion avoidance || 7 || 4 
+Time: 1355723189.920156  || 16924 : 17016 (92) || congestion avoidance || 7 || 4 
+
+
+ACK
+Time:   || ACK # || phase || cwnd || ssthresh
+ACK # 17016 not received: TIMEOUT
+
+
+
+
+ignore the next transmit & ack!! used to get expected sendseq # so slow start doesn't default to linear growth
+
+Time: 1355723191.420716  || 17016 : 17108 (92) || congestion avoidance || 1 || 4 
+
+
+ACK
+Time:   || ACK # || phase || cwnd || ssthresh
+Time: 1355723191.461025 || ACK 16924 || congestion avoidance || 1 || 4
+ACK # 16924 is DUPACK
+
+
+Time: 1355723191.481133  || 16924 : 17016 (92) ||      slow start      || 1 || 4 
+
+
+ACK
+Time:   || ACK # || phase || cwnd || ssthresh
+Time: 1355723191.521445 || ACK 17016 ||      slow start      || 1 || 4
+ACK # 17016 is CORRECT 
+
+
+Time: 1355723191.541553  || 17016 : 17108 (92) ||      slow start      || 2 || 4 
+Time: 1355723191.541558  || 17108 : 17200 (92) ||      slow start      || 2 || 4 
+
+
+ACK
+Time:   || ACK # || phase || cwnd || ssthresh
+Time: 1355723191.591946 || ACK 17200 ||      slow start      || 2 || 4
+ACK # 17200 is CORRECT 
+
+
+Time: 1355723191.612050  || 17200 : 17292 (92) || congestion avoidance || 4 || 4 
+Time: 1355723191.612055  || 17292 : 17384 (92) || congestion avoidance || 4 || 4 
+Time: 1355723191.612057  || 17384 : 17476 (92) || congestion avoidance || 4 || 4 
+Time: 1355723191.612058  || 17476 : 17568 (92) || congestion avoidance || 4 || 4 
+
+
+ACK
+Time:   || ACK # || phase || cwnd || ssthresh
+Time: 1355723191.682580 || ACK 17568 || congestion avoidance || 4 || 4
+ACK # 17568 is CORRECT 
+
+
+Time: 1355723191.702683  || 17568 : 17660 (92) || congestion avoidance || 5 || 4 
+Time: 1355723191.702691  || 17660 : 17729 (69) || congestion avoidance || 5 || 4 
+
+
+ACK
+Time:   || ACK # || phase || cwnd || ssthresh
+Time: 1355723191.753079 || ACK 0 || congestion avoidance || 5 || 4
+Client received file!
